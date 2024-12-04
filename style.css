@@ -1,0 +1,160 @@
+/* Fondo y colores de texto oscuros */
+body {
+    font-family: 'Courier New', monospace;
+    background-color: #1a1a1a; /* Color de fondo oscuro */
+    color: #e0e0e0; /* Texto en color claro */
+    margin: 0;
+    padding: 0;
+    transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
+}
+
+/* Estilo del encabezado */
+header {
+    background-color: #000; /* Fondo completamente negro */
+    color: #f2f2f2; /* Texto en gris claro */
+    text-align: center;
+    padding: 40px 0;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.7); /* Sombras para más oscuridad */
+}
+
+/* Efecto de entrada */
+h1, h2 {
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.8), 0 0 10px rgba(255, 255, 255, 0.6); /* Sombra luminosa */
+}
+
+/* Estilo del cuerpo */
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Sección "Sobre nosotros" */
+#about {
+    background-color: #333; /* Fondo oscuro para la sección */
+    border-radius: 10px;
+    padding: 15px;
+    margin: 20px auto;
+    width: 80%;
+    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.8);
+}
+
+/* Estilo de los formularios */
+#form {
+    background-color: #222;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.8);
+    margin: 20px auto;
+    width: 80%;
+}
+
+/* Área de texto */
+textarea {
+    width: 100%;
+    padding: 15px;
+    background-color: #333;
+    color: #f2f2f2;
+    border: 1px solid #555;
+    border-radius: 5px;
+    box-sizing: border-box;
+    resize: none;
+    font-size: 1.1em;
+    transition: background-color 0.3s ease;
+}
+
+textarea:focus {
+    background-color: #444; /* Fondo más oscuro al hacer clic */
+}
+
+/* Botón de envío */
+button {
+    background-color: #8b0000; /* Rojo oscuro para destacar */
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background-color: #b22222; /* Rojo más brillante al pasar el mouse */
+    transform: scale(1.05); /* Efecto de agrandado */
+}
+
+/* Pie de página */
+footer {
+    background-color: #111;
+    color: #aaa;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    box-shadow: 0px -4px 10px rgba(0, 0, 0, 0.7);
+}
+/* Estilos generales del formulario */
+#form {
+    background-color: #222;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.8);
+    margin: 20px auto;
+    width: 80%;
+}
+
+/* Campo de correo electrónico */
+#userEmail {
+    width: 100%;
+    padding: 15px;
+    background-color: #333;
+    color: #f2f2f2;
+    border: 1px solid #555;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 1.1em;
+    margin-bottom: 15px; /* Separación entre campos */
+    transition: background-color 0.3s ease;
+}
+
+#userEmail:focus {
+    background-color: #444; /* Fondo más oscuro al hacer clic */
+    border-color: #8b0000; /* Cambio de borde al hacer foco */
+}
+
+/* Estilo del área de texto (mensaje) */
+textarea {
+    width: 100%;
+    padding: 15px;
+    background-color: #333;
+    color: #f2f2f2;
+    border: 1px solid #555;
+    border-radius: 5px;
+    box-sizing: border-box;
+    resize: none;
+    font-size: 1.1em;
+    transition: background-color 0.3s ease;
+    margin-bottom: 15px; /* Separación entre campos */
+}
+
+textarea:focus {
+    background-color: #444; /* Fondo más oscuro al hacer clic */
+}
+
+/* Botón de envío */
+button {
+    background-color: #8b0000; /* Rojo oscuro para destacar */
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background-color: #b22222; /* Rojo más brillante al pasar el mouse */
+    transform: scale(1.05); /* Efecto de agrandado */
+}
